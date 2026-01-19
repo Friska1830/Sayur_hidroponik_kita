@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sayur Hidroponik Kita</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container">
+    <img src="assets/img/logo.png" class="logo">
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="#profil">Profil</a>
+      <a href="#produk">Produk</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="beranda" class="hero">
+  <div class="hero-text">
+    <h1>Sayur Hidroponik Kita</h1>
+    <p>Solusi sayuran segar, sehat, dan berkelanjutan</p>
+  </div>
+</section>
+
+<!-- PROFIL -->
+<section id="profil" class="section">
+  <h2>Profil UMKM</h2>
+  <p>
+    Sayur Hidroponik Kita adalah UMKM pertanian hidroponik yang berfokus pada
+    produksi sayuran segar dan berkualitas tinggi. Kami menerapkan sistem
+    budidaya modern yang ramah lingkungan untuk menghasilkan sayuran yang
+    higienis, bernutrisi, dan aman dikonsumsi setiap hari.
+  </p>
+</section>
+
+<!-- PRODUK -->
+<section id="produk" class="section bg-soft">
+  <h2>Produk Kami</h2>
+  <div class="produk-grid">
+    <div class="card">
+      <img src="assets/img/selada.jpg">
+      <h3>Selada Hidroponik</h3>
+      <p>Rp 22.000,00/kg</p>
+      <span>Selada hidroponik segar, renyah, dan higienis, dipanen langsung dari kebun kami.</span>
+    </div>
+    <div class="card">
+      <img src="assets/img/Pakcoy.jpg">
+      <h3>Pakcoy Hidroponik</h3>
+      <p>Rp 22.000,00/kg</p>
+      <span>Pakcoy hidroponik kaya nutrisi, bebas pestisida, dan siap diolah kapan saja.</span>
+    </div>
+  </div>
+</section>
+
+<!-- GALERI -->
+<section id="galeri" class="section">
+  <h2>Galeri Kebun Hidroponik</h2>
+  <p class="sub">Kebun • Proses Tanam • Panen</p>
+
+  <div class="galeri-grid">
+    <img src="assets/galeri/bibitsemai.jpg" onclick="openPopup(this)">
+    <img src="assets/galeri/semaiselada.jpg" onclick="openPopup(this)">
+    <img src="assets/galeri/tanamanmuda.jpg" onclick="openPopup(this)">
+    <img src="assets/galeri/kebun.jpg" onclick="openPopup(this)">
+    <img src="assets/galeri/kebunn.jpg" onclick="openPopup(this)">
+  </div>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup" onclick="closePopup()">
+  <span class="close">&times;</span>
+  <img id="popup-img">
+</div>
+
+
+<!-- KONTAK -->
+<section id="kontak" class="section bg-soft">
+  <h2>Kontak Kami</h2>
+  <p class="sub">Hubungi kami untuk pemesanan dan kerja sama</p>
+
+  <div class="kontak-grid">
+
+    <!-- WhatsApp -->
+    <div class="kontak-card">
+      <span class="icon">📞</span>
+      <h3>WhatsApp</h3>
+      <p>Respon cepat untuk pemesanan</p>
+      <a href="https://wa.me/6282323093992" target="_blank" class="btn">
+        Chat via WhatsApp
+      </a>
+    </div>
+
+    <!-- Alamat -->
+    <div class="kontak-card">
+      <span class="icon">📍</span>
+      <h3>Alamat Kebun</h3>
+      <p>
+         Banci, Puyoh, Kec. Dawe, Kabupaten Kudus, Jawa Tengah 59353<br>
+      </p>
+      <a href="https://maps.app.goo.gl/n9FP4VrUnPLWCh6s9" target="_blank" class="btn-outline">
+        Lihat di Google Maps
+      </a>
+    </div>
+
+    <!-- Email -->
+    <div class="kontak-card">
+      <span class="icon">✉️</span>
+      <h3>Email</h3>
+      <p>Untuk kerja sama & informasi</p>
+      <a href="mailto:Andrew120886@gmail.com" class="btn-outline">
+        Andrew120886@gmail.com
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Sayur Hidroponik Kita</p>
+</footer>
+
+</body>
+</html>
